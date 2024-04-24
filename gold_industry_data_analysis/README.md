@@ -39,3 +39,4 @@ MAPE = 25% * sMAPE(rougher) + 75% * sMAPE(final)$
 
 ## Выводы
 ...
+Работа завершена.
