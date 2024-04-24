@@ -46,6 +46,8 @@
 
 **Тип задачи:** классификация
 
-
 ## Используемые библиотеки
 *pandas*, *numpy*, *scipy*, *matplotlib*, *seaborn*, *re*, *sklearn*, *lightgbm* 
+
+## Выводы
+...

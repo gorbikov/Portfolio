@@ -15,3 +15,6 @@
 
 ## Используемые библиотеки
 *pandas*, *numpy*, *matplotlib*, *sklearn*
+
+## Выводы
+...

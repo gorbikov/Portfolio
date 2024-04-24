@@ -32,3 +32,6 @@
 
 ## Используемые библиотеки
 *pandas*, *numpy*, *scipy*, *matplotlib*, *seaborn*, *sklearn*, *lightgbm*
+
+## Выводы
+...
