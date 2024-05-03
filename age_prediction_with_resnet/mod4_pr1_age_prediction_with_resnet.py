@@ -19,12 +19,6 @@ def load_train(path):
 
     data_generator = ImageDataGenerator(rescale=1. / 255,
                                         validation_split=0.2,
-                                        # width_shift_range=0.2,
-                                        # height_shift_range=0.2,
-                                        # horizontal_flip=True,
-                                        # vertical_flip=True,
-                                        # rotation_range=90,
-                                        # zoom_range=0.2
                                         )
 
     data_generator_flow = data_generator.flow_from_dataframe(target_df,
@@ -80,7 +74,6 @@ def create_model(input_shape):
 
     lr_schedule = ExponentialDecay(
         initial_learning_rate=initial_learning_rate,
-        # TODO поменять decay_steps
         decay_steps=1463,
         decay_rate=decay_rate)
 
